@@ -11,11 +11,6 @@
     "website": "https://ds.co/breakdowns/slam-mirrorbot",
     "success_url": "https://t.me/SlamMirrorSupport",
     "stack": "container",
-    "env": {
-      "ENV": {
-        "description": "Setting this to ANYTHING will enable Webhooks when in env mode",
-        "value": "ANYTHING"
-      },
       "BOT_TOKEN": {
         "description": "The telegram bot token that you get from @BotFather.",
         "required": false
