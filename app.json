@@ -11,6 +11,7 @@
     "website": "https://ds.co/breakdowns/slam-mirrorbot",
     "success_url": "https://t.me/SlamMirrorSupport",
     "stack": "container",
+    "env": {
       "BOT_TOKEN": {
         "description": "The telegram bot token that you get from @BotFather.",
         "required": false
