@@ -1,0 +1,30 @@
+{
+    "name": "igdl",
+    "description": "A Telegram bot for all your mirror needs",
+    "logo": "https://telegra.ph/file/6507910fd06d18dfaba82.jpg",
+    "keywords": [
+      "bot",
+      "telegram",
+      "python"
+    ],
+    "repository": "https://github.com/defrieantoe1999/xIGDLBot",
+    "website": "https://ds.co/breakdowns/slam-mirrorbot",
+    "success_url": "https://t.me/SlamMirrorSupport",
+    "stack": "container",
+    "env": {
+      "ENV": {
+        "description": "Setting this to ANYTHING will enable Webhooks when in env mode",
+        "value": "ANYTHING"
+      },
+      "BOT_TOKEN": {
+        "description": "The telegram bot token that you get from @BotFather.",
+        "required": false
+      },
+
+    },
+    "addons": [
+      {
+        "plan": "heroku-postgresql"
+      }
+    ]
+}
